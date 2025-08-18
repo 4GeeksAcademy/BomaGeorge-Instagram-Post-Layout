@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(8, 41, 8);
+    background-color: rgb(165, 190, 165);
     font-family: Roboto, sans-serif;
     align-items: center;
 
@@ -12,79 +12,31 @@ body {
     margin-left: 20%;
     margin-top: 2%;
     padding: 10px;
-    position: relative;;
-
-}
-
-.post-header{
-    display: flex;
-    padding-bottom: 1%;
-
-}
-
-.post-icons{
-    display: flex;
-
-}
-
-.header-right-side{
-    display: flex;
-
-}
-
-.post-body{
-    display: flex;
-    padding-top: 1px;
-    
-}
-
-.post-icons{
-  display: flex;
-  justify-content: space-between; /* pushes items to opposite ends */
-  align-items: center; /* optional: vertically align them */
-  padding: 5px;
-  
-}
-
-.post-icons-left {
-  display: flex;
-  
-}
-
-.post-icons-right {
-  padding: 1px;
-}
-
-
-.post-header{
-  display: flex;
-  justify-content: space-between;   /* pushes items to opposite ends */
-  align-items: left; /* optional: vertically align them */
-  padding: 10px;
-  
-}
-
-.post-header-left {
-  display: flex;
-  
+    position: relative;
 }
 
 .header-right {
     display: flex;
     padding: 1px;
     justify-content: center;
-    align-items: right;
 }
 
+.post-header{
+  display: flex;
+  justify-content: space-between;   /* pushes items to opposite ends */
+  padding: 10px;
+}
 
+.post-header-left {
+  display: flex;
+}
 
+.post-icons{
+  display: flex;
+  justify-content: space-between; /* pushes items to opposite ends */
+  padding: 5px;
+}
 
-
-
-
-/* .main{
-    display:flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    padding: 0.5rem; */
+.post-icons-left {
+  display: flex;
 }
